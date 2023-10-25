@@ -336,6 +336,12 @@ template {
 body {
   background-color: var(--purple);
 }
+body div nav ul #trial a {
+  background-color: var(--cyan);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
 
 /* =============
     Typography
@@ -358,6 +364,17 @@ ul {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+}
+
+.cyan-btn {
+  background-color: var(--cyan);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
 /* =============
     Forms
 ============= */
@@ -390,3 +407,6 @@ textarea {
 /* =============
     Hero
 ============= */
+#hero {
+  margin-top: 110px;
+}

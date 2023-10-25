@@ -4,4 +4,20 @@
 
 body{
     background-color: var(--purple);
+
+    div{
+        nav{
+            ul{
+                #trial{
+                    a{
+                        background-color: var(--cyan);
+                        color: var(--white);
+                        padding: 15px 30px;
+                        border-radius: 5px;
+                        
+                    }
+                }
+            }
+        }
+    }
 }
