@@ -1,5 +1,18 @@
 /* =============
     Base
 ============= */
-
+body{
+    section{
+        ul{
+            li{ 
+                #plan{
+                    background-color: var(--purple);
+                }
+                #price{
+                    background-color: var(--purple);
+                }
+            }
+        }
+    }
+}
 

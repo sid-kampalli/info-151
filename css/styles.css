@@ -333,6 +333,13 @@ template {
 /* =============
     Base
 ============= */
+body section ul li #plan {
+  background-color: var(--purple);
+}
+body section ul li #price {
+  background-color: var(--purple);
+}
+
 /* =============
     Typography
 ============= */
@@ -354,6 +361,17 @@ ul {
 /* =============
     Buttons
 ============= */
+button {
+  border: none;
+}
+
+.cyan-btn {
+  background-color: var(--cyan);
+  color: var(--white);
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+
 /* =============
     Forms
 ============= */
