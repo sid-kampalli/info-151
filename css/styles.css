@@ -346,9 +346,14 @@ body div nav ul #trial a {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 h1, h2, h3, h4, h5 {
   margin: 0;
   padding: 0;
+  font-weight: 600;
 }
 
 p {
@@ -373,6 +378,12 @@ button {
   color: var(--white);
   padding: 15px 30px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+.cyan-btn:hover {
+  background-color: var(--white);
+  color: var(--cyan);
 }
 
 /* =============
@@ -398,6 +409,36 @@ textarea {
 /* =============
     Navigation
 ============= */
+a {
+  text-decoration: none;
+}
+
+.logo {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+nav ul li {
+  list-style: none;
+  margin-left: 25px;
+}
+nav ul li a:link, nav ul li a:visited {
+  color: white;
+  font-size: 0.875rem;
+}
+nav ul .selected {
+  color: #42B4EE;
+}
+
 /* =============
     Header
 ============= */
@@ -407,6 +448,17 @@ textarea {
 /* =============
     Hero
 ============= */
+.cyan-btn {
+  margin-top: 35px;
+}
+
 #hero {
   margin-top: 110px;
+}
+#hero h1 {
+  font-size: 62px;
+  color: white;
+}
+#hero p {
+  color: white;
 }
